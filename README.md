@@ -1,12 +1,19 @@
 # eComerceAPI
 
 •	Server.js is the entry point of app which establishes the server and connects to the database(it is mongodb database hosted on cloud)
+
 •	App.js: it contains the express setup app and middlewares for routing and other middlewares such as morgan(it helps to log the request in the console) and body parser to parse the request body.
+
 •	Routes: the files in this folder contains express routers.
+
 •	Modals: the files in this folder contains modals of the orders, products, categories and order_product.
+
 •	Controller
+
   	catrgoryController: contains functions which adds and gets the categories
+  
   	orderController: contains a function which takes an array of product Ids and places the order
+  
   	productController: it contains functions which adds the product to the database and another function gets the product of specified category.
   
   APIs:
